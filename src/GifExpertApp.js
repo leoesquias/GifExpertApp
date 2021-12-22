@@ -13,7 +13,7 @@ export const GifExpertApp   = () => {
     //     setCategories( cast => (["Huntes X.. Hunter",...cast]))
     //     console.log(categories);
      }
-      
+       
     return (
         <>
            <h2>GifExpertApp...</h2> 
@@ -24,7 +24,6 @@ export const GifExpertApp   = () => {
             {
                 categories.map(category => (
                    // {return <li key={category}>{category}</li>}
-                   
                     <GifGrid
                     key={category}
                     category={category}
